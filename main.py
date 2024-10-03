@@ -54,7 +54,7 @@ def worker(domains, free_domains):
     driver.quit()
 
 def write_results(data):
-    name = "result" + str(random.randint(10000, 100000)) + ".txt"  # Добавляем расширение .txt
+    name = "result" + str(random.randint(10000, 100000)) + ".txt"
     try:
         with open(name, 'w') as f:
 
